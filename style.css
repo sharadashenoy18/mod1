@@ -15,7 +15,6 @@
   
   .we__offer_card {
     flex: 1 0 30%; /* Allow each card to take up about 30% of the container width */
-    border-radius: 10px;
     background-color: gray;
     border: 1px solid #e0e0e0;
     margin-right: 12px;
