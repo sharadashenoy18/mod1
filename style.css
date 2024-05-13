@@ -1,43 +1,97 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
 }
 
-.we__offer {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center; /* Center items horizontally */
-    overflow: auto; /* Enable horizontal scrolling if needed */
-  }
-  
-  .we__offer_card {
-    flex: 1 0 30%; /* Allow each card to take up about 30% of the container width */
-    background-color: gray;
-    border: 1px solid #e0e0e0;
-    margin-right: 12px;
-  }
-
-.we__offer_content{
-    padding: 10px;
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
 
-@media only screen and (max-width: 900px){
-    .navigation_container{
-            grid-template-columns: repeat(3, 1fr);
-    }
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
 }
 
-@media only screen and (max-width: 500px){
-    .navigation_container{
-            grid-template-columns: repeat(2, 1fr);
-    }
+.navbar-brand:hover{
+	color: white;
 }
 
-@media only screen and (max-width: 320px){
-    .navigation_container{
-            grid-template-columns: repeat(1, 1fr);
-    }
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
 }
